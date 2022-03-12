@@ -31,22 +31,33 @@ const toggleMenu = () => {
 menuToggleIcon.addEventListener('click', toggleMenu);
 
 // Open/Close search form popup
+const formOpenBtn = selectElement('#search-icon');
+const formCloseBtn = selectElement('#form-close-btn');
+const searchFormContainer = selectElement('#search-form-container');
 
+formOpenBtn.addEventListener('click', () => searchFormContainer.classList.add('activated'));
+
+formCloseBtn.addEventListener('click', () => searchFormContainer.classList.remove('activated'));
 // -- Close the search form popup on ESC keypress
+window.addEventListener('keyup', event => {
+    if (event.key === 'Escape') {
+        searchFormContainer.classList.remove('activated');
+    }
+});
 
 // Switch theme/add to local storage
 const bodyElement = document.body;
 const themeToggleBtn = selectElement('#theme-toggle-btn');
-const currentTheme = localStorage.getItem('currentTheme');
 
-if(currentTheme) {
+const currentTheme = localStorage.getItem('currentTheme');
+if (currentTheme) {
     bodyElement.classList.add(currentTheme);
 }
 
 themeToggleBtn.addEventListener('click', () => {
     bodyElement.classList.toggle('light-theme');
 
-    if(bodyElement.classList.contains('light-theme')) {
+    if (bodyElement.classList.contains('light-theme')) {
         localStorage.setItem('currentTheme', 'themeActive');
     } else {
         localStorage.removeItem('currentTheme');
