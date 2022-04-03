@@ -485,7 +485,7 @@ body.light-theme {
     background-color: var(--secondary-background-color);
 }
 
-.swiper-controls::after{
+.swiper-controls::after {
     font-size: 1.6rem;
     color: var(--light-color);
 }
@@ -494,11 +494,53 @@ body.light-theme {
     bottom: .5rem !important;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     background-color: var(--light-color)
 }
 
+
 /* Older posts */
+.older-posts-grid-wrapper {
+    gap: var(--gap);
+}
+
+.older-posts-article-image-wrapper,
+.older-posts .article {
+    min-height: var(--item-min-height-sm);
+}
+
+.older-posts .article {
+    background-color: var(--secondary-background-color)
+}
+
+.older-posts-article-image-wrapper {
+    position: relative;
+}
+
+.older-posts-grid-wrapper .article-data-container {
+    position: static;
+    background-color: transparent;
+}
+
+.older-posts-grid-wrapper .article-title {
+    margin-bottom: var(--margin-sm);
+}
+
+.see-more-container {
+    margin-top: var(--margin-md);
+}
+
+.see-more-btn {
+    text-transform: uppercase;
+}
+
+.see-more-btn i {
+    transition: transform .25s;
+}
+
+.see-more-btn:hover i {
+    transform: translateX(.5rem);
+}
 
 /* Popular tags */
 
