@@ -1,7 +1,7 @@
 # NewsFlash
-
+<b><p align="center"> NewsFlash is a static News website. </p> </b> 
 ![NewsFlash](https://user-images.githubusercontent.com/44284877/180201867-62c89211-41c5-4715-abb5-b38b693c90cd.png)
-<b><p align="center"> <a href="https://kabir0x23.github.io/NewsFlash/"> NewsFlash link </a> <p> </b>
+<b> <p align="center"> <a href="https://kabir0x23.github.io/NewsFlash/"> Website link </a> <p> </b>
 
 ##  👇 Prerequisites
 
