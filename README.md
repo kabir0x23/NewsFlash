@@ -17,6 +17,8 @@ Before installation, please make sure you have already installed the following t
 
 ---
 
+> If you are new to Git and GitHub then checkout this repository first [git-github-practice](github.com/cryptoverseWeb3/git-github-practice).
+
 ## 👨‍💻 Contributing
 
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
