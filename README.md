@@ -7,7 +7,6 @@
 
 Before installation, please make sure you have already installed the following tools:
 - [Git](https://git-scm.com/downloads)
-- [Nodejs](https://nodejs.org/en/download/)
 
 ##  🛠️ Installation Steps
 1. Fork the project
@@ -17,7 +16,7 @@ Before installation, please make sure you have already installed the following t
 
 ---
 
-> If you are new to Git and GitHub then check out **[git-github-practice](https://github.com/cryptoverseWeb3/git-github-practice)** repository **first** and contribute to it.
+> If you are new to Git and GitHub then must check out **[git-github-practice](https://github.com/cryptoverseWeb3/git-github-practice)** repository **first** and contribute to it before you contributing to other open-source projects.
 
 ## 👨‍💻 Contributing
 
