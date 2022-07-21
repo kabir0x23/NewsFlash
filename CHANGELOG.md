@@ -1,4 +1,13 @@
-# 0.1.0 (2022-07-21)
+## [0.1.1](https://github.com/kabir0x23/NewsFlash/compare/v0.1.0...v0.1.1) (2022-07-21)
+
+
+### Bug Fixes
+
+* deploy ([#14](https://github.com/kabir0x23/NewsFlash/issues/14)) ([e6b4931](https://github.com/kabir0x23/NewsFlash/commit/e6b493166dbe96e38337f673b8ec446ae5eb68ab))
+
+
+
+# [0.1.0](https://github.com/kabir0x23/NewsFlash/compare/f34dadfdd25b18fe1d66a10e81d2a722b1aeb8d7...v0.1.0) (2022-07-21)
 
 
 ### Features
