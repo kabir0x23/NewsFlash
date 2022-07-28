@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/kabir0x23/NewsFlash/compare/v0.1.1...v0.2.0) (2022-07-28)
+
+
+### Features
+
+* Login ([#18](https://github.com/kabir0x23/NewsFlash/issues/18)) ([2e32561](https://github.com/kabir0x23/NewsFlash/commit/2e325619f7213fac6a1c0085e44c8b890aee64dc))
+
+
+
 ## [0.1.1](https://github.com/kabir0x23/NewsFlash/compare/v0.1.0...v0.1.1) (2022-07-21)
 
 
